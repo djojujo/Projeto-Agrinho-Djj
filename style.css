@@ -26,14 +26,12 @@ body{
      justify-content: space-around;
      padding: 24px 0;
   }
-  
-    .imagem{
-      width: 100%
-  }
     .cabecalho-lista-item{
     display: inline-block;
     margin: 016px;
     font-size: 24px;
     
   }
-  
+  .img{
+    width:100%  
+  }
