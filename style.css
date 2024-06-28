@@ -27,9 +27,8 @@ body{
      padding: 24px 0;
   }
   
-    .cabecalho-imagem{
+    .imagem{
       width: 100%
-      0%; border-radius: 100%;
   }
     .cabecalho-lista-item{
     display: inline-block;
