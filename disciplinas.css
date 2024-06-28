@@ -63,12 +63,12 @@
 
   .estudantes{
     background-image:linear-gradient(#360303,#360303);
-    color:rgb(240, 213, 187);
+    color:rgb(15, 8, 1);
     display: flex;}
   
 .baseboard{
   background-color: #d17f7f; 
-  color:#ffd5cd;
+  color:#020000;
   display: flex;
   justify-content: space-around;
   padding: 24px 0;
