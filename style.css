@@ -17,6 +17,8 @@ body {
     font-style: normal;
 }
 
+/*Cabeçalho*/
+
 header {
     background-color: var(--canela);   
 }
@@ -68,6 +70,9 @@ header .titles h2 {
     margin: 16px 0 0 0;
 }
 
+
+/*Conteúdo principal*/    
+
 main {
     width: 65%;
     background-color: var(--bright-canela);
@@ -102,13 +107,13 @@ main ul li:hover {
 
 }
 
-div.slider-container {
+div.slider-container, div.image-container  {
     display: flex;
     justify-content: center;
     margin-bottom: 32px;
 }
 
-main .slide {
+main .slide, main img {
     width: 65%;    
     border-radius: 8px;
     aspect-ratio: 16/9;
@@ -130,3 +135,58 @@ footer a {
 footer a:hover {
     border-bottom: var(--neo-black) solid 2px;
 }
+
+
+/*Responsivo*/
+
+@media screen and (max-width: 1600px) {
+    main .slide, main img {
+        width: 85%;    
+    }
+}
+@media screen and (max-width: 1000px) {
+    main {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 730px) { 
+    header nav {
+    display: flex;
+    flex-direction: column;      
+    font-size: 16px;   
+    padding: 8px;
+    border-radius: 0;
+    width: 100%;
+    top: 0;
+    position: inherit;
+    }
+
+    header nav a {
+        padding: 8px;
+    }
+
+    header .titles h1 {
+        font-size: 28px;
+    }
+    header .titles h2 {
+        font-size: 20px;
+    }
+
+    header .header-main {
+        padding-top: 16px;
+    }
+
+    header .header-main img {
+        width: 100px;
+    }
+
+    main {
+        padding: 8px 16px;
+    }
+
+    main .slide, main img {
+        width: 100%;    
+    }
+}
+
+    
