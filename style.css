@@ -1,0 +1,132 @@
+:root {
+    --neo-brown:  rgb(71, 45, 45);
+    --canela: rgb(247, 201, 109);
+    --mark-canela: rgb(255, 223, 160);
+    --bright-canela: rgb(255, 242, 214);
+    --neo-black: rgb(41, 32, 13);
+}
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+}
+
+header {
+    background-color: var(--canela);   
+}
+
+header nav {
+    background-color: var(--neo-brown);
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 0 0 0 8px;
+    right: 0;
+    position: fixed;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 16px;   
+}
+
+header nav a:hover {
+    border-bottom: white solid 2px;
+}
+
+
+header .header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 16px 16px 16px;
+}
+
+header .header-main img {
+    width: 124px;
+    margin: 0 8px;
+}
+
+header .titles {
+    text-align: center;
+    
+    color: var(--neo-black);
+}
+
+header .titles h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header .titles h2 {
+    margin: 16px 0 0 0;
+}
+
+main {
+    width: 65%;
+    background-color: var(--bright-canela);
+    margin: auto;
+    padding: 32px 48px;
+}
+
+main h2 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+}
+
+main h3 {
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+main p {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+}
+
+main ul li {
+    font-size: 20px;
+    margin: 4px 0;
+    padding: 4px 0;
+    transition: .35s;
+}
+
+main ul li:hover {
+    background-color: var(--mark-canela);
+
+}
+
+div.slider-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+main .slide {
+    width: 65%;    
+    border-radius: 8px;
+    aspect-ratio: 16/9;
+}
+
+footer {
+    background-color: var(--canela);
+    text-align: center;
+    padding: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--neo-black);
+    font-weight: 700;
+}
+
+footer a:hover {
+    border-bottom: var(--neo-black) solid 2px;
+}
